@@ -7,12 +7,13 @@
 
 一直以来都想好好总结一下jdk8的新特性了，但是一直在补其他方面的基础，并没有特别重视。虽然
 不使用jdk8的新特性照样很好的编程，但是使用新特性coding时更为优雅，简洁，在不费更大的力气就
-可用享受jkd8给我们带来性能的提升。因此最近打算花一段好好总结下jdk8。
+可用享受jkd8给我们带来性能的提升。因此最近打算花一段时间好好总结下jdk8。
 
 ## 目前已整理的新特性如下：
 |新特性|
 | :------ |
 | [Lambda表达式](src/main/java/com/xiu/fastJdk8/lambda)|
 | [函数式接口](src/main/java/com/xiu/fastJdk8/function)|
+| [方法引用](src/main/java/com/xiu/fastJdk8/reference)|
 
 
