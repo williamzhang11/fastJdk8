@@ -15,5 +15,7 @@
 | [Lambda表达式](src/main/java/com/xiu/fastJdk8/lambda)|
 | [函数式接口](src/main/java/com/xiu/fastJdk8/function)|
 | [方法引用](src/main/java/com/xiu/fastJdk8/reference)|
+| [构造器引用与数组引用](src/main/java/com/xiu/fastJdk8/contructor)|
+| [Stream API](src/main/java/com/xiu/fastJdk8/streamapi)|
 
 
