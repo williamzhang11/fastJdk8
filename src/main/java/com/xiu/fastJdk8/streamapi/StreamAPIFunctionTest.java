@@ -102,6 +102,51 @@ public class StreamAPIFunctionTest {
 		}).distinct().forEach(System.out::println);
 	}
 
+	//map：映射
+	@Test
+	public void testMap(){
+
+		List<String> list = Arrays.asList("aa","bb","cc");
+		list.stream()
+				.map(x->x.toUpperCase()).
+				forEach(System.out::println);
+	}
+
+	//只获取名字
+	@Test
+	public void testMap1(){
+
+		list.stream()
+				.map(x->x.getName()).
+				forEach(System.out::println);
+	}
+	//获取大于18的年龄
+	@Test
+	public void testMap2(){
+
+		list.stream()
+				.map(x->{
+
+					if(x.getAge() >= 18){
+						return x.getAge();
+					}
+					return null;
+				}).filter(x->x!=null).
+				forEach(System.out::println);
+	}
+
+	//排序
+	@Test
+	public void testSort(){
+		List<Integer> list = Arrays.asList(1,4,7,2,5,8);
+		list.stream().sorted().forEach(System.out::println);
+	}
+
+	//排序
+	@Test
+	public void testSort1(){
+		list.stream().sorted((x,y)->x.getAge()-y.getAge()).forEach(System.out::println);
+	}
 
 }
 
