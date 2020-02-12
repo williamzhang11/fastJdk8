@@ -8,8 +8,12 @@
     消除强制类型转换
 
 
-|框架|
+|泛型|
 | :------ |
 | [泛型类](./genericsclass/)|
 | [泛型接口](./genericsinterface/)|
+| [泛型方法](./genericsfunction/)|
+| [类型通配符](./wildcard/)|
+| [泛型擦除](./typeerasure/)|
+| [泛型与数组](./genericsarray/)|
 
