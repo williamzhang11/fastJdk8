@@ -10,6 +10,6 @@
 
 |框架|
 | :------ |
-| [泛型类](./genericsclass|
-| [泛型接口](./genericsinterface|
+| [泛型类](./genericsclass/|
+| [泛型接口](./genericsinterface/|
 
